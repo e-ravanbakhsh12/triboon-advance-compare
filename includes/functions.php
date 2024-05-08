@@ -3,7 +3,7 @@
 function checkForWoocommerce()
 {
     if (!class_exists('woocommerce') || !defined('WC_VERSION')) {
-        add_action('admin_notices', 'TriboonTAC\missingWarningWoocommerce');
+        add_action('admin_notices', 'missingWarningWoocommerce');
     }
 }
 
