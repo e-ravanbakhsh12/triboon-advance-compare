@@ -45,7 +45,7 @@ class Publics extends TAC
     {
 
         if (get_page_template_slug() == 'compare-template.php') {
-            $page_template = TAC_DIR . 'include/public/templates/compare-template.php';
+            $page_template = TAC_DIR . 'includes/publics/templates/compare-template.php';
         }
         return $page_template;
     }

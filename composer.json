@@ -1,6 +1,6 @@
 {
     "name": "ehsan12/tribon-asvance-compare",
-    "description": "demo test plugin",
+    "description": "add admin panel customize advertising system",
     "type": "project",
     "autoload": {
         "psr-4": {

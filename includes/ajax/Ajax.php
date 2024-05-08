@@ -77,7 +77,7 @@ class Ajax extends TAC
                 define('WP_AJAX', true);
                 switch ($requestQuery) {
                     case 'search-post':
-                        require TAC_DIR . '/include/ajax/search-post.php';
+                        require TAC_DIR . '/includes/ajax/search-post.php';
                         break;
                 }
             }

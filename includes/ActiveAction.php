@@ -1,7 +1,6 @@
 <?php
 
 namespace TriboonTAC\includes;
-use TriboonTAC\includes\TAC;
 
 /**
  * This file is the maine class of ajax of plugin
@@ -20,7 +19,7 @@ if (!defined('ABSPATH')) {
  * this class used to evaluate and display all thing about ajax
  *
  */
-class ActiveAction extends TAC
+class ActiveAction
 {
 
 

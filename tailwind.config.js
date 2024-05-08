@@ -5,7 +5,7 @@ module.exports = {
   },
   content: [
     // "./**/*.{php,js}",
-    "./include/public/templates/**/*.{php,js}",
+    "./includes/publics/templates/**/*.{php,js}",
   ],
   theme: {
     container: {

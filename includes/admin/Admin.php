@@ -91,7 +91,7 @@ class Admin extends TAC
     public function adminConditionMenuContent()
     {
         if (current_user_can('manage_options') || current_user_can('shop_manager')) {
-            require_once TAC_DIR . 'include/admin/templates/dashboard.php';
+            require_once TAC_DIR . 'includes/admin/templates/dashboard.php';
         } else {
             wp_die('شما اجازه دسترسی به این صفحه را ندارید');
         }
@@ -104,7 +104,7 @@ class Admin extends TAC
      */
     public static function renderCustomMetaBox($post): void
     {
-        require_once TAC_DIR . 'include/admin/templates/metaBox.php';
+        require_once TAC_DIR . 'includes/admin/templates/metaBox.php';
     }
 
     /**

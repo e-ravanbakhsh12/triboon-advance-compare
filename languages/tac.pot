@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Teriboon Advance Compare\n"
-"POT-Creation-Date: 2024-02-13 12:33+0330\n"
+"POT-Creation-Date: 2024-05-08 23:19+0330\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,15 +23,15 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: assets/js\n"
 
-#: include/admin/admin.class.php:47 include/admin/admin.class.php:48
+#: includes/admin/Admin.php:48 includes/admin/Admin.php:49
 msgid "مقایسه محصولات"
 msgstr ""
 
-#: include/ajax/search-post.php:21
+#: includes/ajax/search-post.php:22
 msgid "اطلاعات محصولات ها با موفقیت بروزرسانی شد"
 msgstr ""
 
-#: include/functions.php:19
+#: includes/functions.php:16
 #, php-format
 msgid ""
 "The <b>WooCommerce</b> plugin must be active for <b>%s Triboon Advance "
@@ -39,6 +39,6 @@ msgid ""
 "\">install & activate WooCommerce</a>."
 msgstr ""
 
-#: include/public/public.class.php:38
+#: includes/publics/Publics.php:38
 msgid "compare page"
 msgstr ""

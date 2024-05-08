@@ -4,7 +4,7 @@
  * Description:           add admin panel customize advertising system
  * Plugin URI:            https://www.triboon.ir/
  * Author URI:            https://www.linkedin.com/in/ehsan-ravanbakhsh/
- * Version:               1.0.0
+ * Version:               1.1.0
  * Author:                Ehsan Ravanbakhsh
  * License:               GPL-2.0+
  * License URI:           http://www.gnu.org/licenses/gpl-2.0.txt
@@ -22,7 +22,7 @@ if (!defined('ABSPATH')) {
 }
 
 if (!defined('TAC_VERSION')) {
-     define('TAC_VERSION', '1.0.0');
+     define('TAC_VERSION', '1.1.0');
 }
 
 if (!defined('TAC_DIR')) {
@@ -32,14 +32,12 @@ if (!defined('TAC_DIR')) {
 if (!defined('TAC_URL')) {
      define('TAC_URL', plugin_dir_url(__FILE__));
 }
+// plugin requires
+require_once TAC_DIR . '/vendor/autoload.php';
+
 $ActiveAction = new ActiveAction();
 register_activation_hook(__FILE__, array($ActiveAction, 'activate'));
 register_deactivation_hook(__FILE__, array($ActiveAction, 'deactivate'));
-
-
-
-// plugin requires
-require_once TAC_DIR . '/vendor/autoload.php';
 
 
 /**
