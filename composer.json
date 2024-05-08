@@ -1,0 +1,19 @@
+{
+    "name": "ehsan12/tribon-asvance-compare",
+    "description": "demo test plugin",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "TriboonTAC\\": ""
+        },
+        "files": ["includes/functions.php"]
+    },
+    "authors": [
+        {
+            "name": "ehsan ravanbakhsh",
+            "email": "e.ravanbakhsh@gmail.com"
+        }
+    ],
+    "require": {
+    }
+}
